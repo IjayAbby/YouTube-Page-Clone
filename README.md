@@ -6,7 +6,7 @@ The goal is to embed a YouTube video of a website that clones YouTube
 NB: Responsive Design was not a requirement
 
 **Below is a detailed list of project requirements** 
-___
+***
 
 ## Requirements shortcut list
 As this is your first project, we prepared a shortcut list of requirements. This list is based on requirements written in the task description and will help you control your progress.
@@ -38,7 +38,7 @@ It shows the number of views.
 ## Built with
 - HTML5
 - CSS
-
+***
 ### Author1
 Github IjayAbby 
 
@@ -47,15 +47,15 @@ Github IjayAbby
 Github ggotora
 
 LinkedID https://www.linkedin.com/in/gilbert-gotora/
-
+***
 ### handshake Contributing
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
-
+***
 ### Show your support
 Give a star if you like this project!
-
+***
 ### Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
