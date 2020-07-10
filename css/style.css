@@ -120,3 +120,15 @@ body {
     font-size: 1.2rem;
     padding: 1rem;
 }
+.toggle-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fas{
+    display: block;
+    
+}
+.avatar{
+    border-radius: 50%;
+}
