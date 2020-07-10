@@ -3,30 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
-    <link rel="stylesheet" href="css/styles.css">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d86848cfe0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="logo">
-            <i class="fas fa-bars"></i>
-            <img width="80" src="images/logo.png"alt="">
-        </div>
-        <div class="search-area">
-            <label for="search">
-                <input type="search" id="search" placeholder="Search">
-                <i class="fas fa-search"></i>
-            </label>
-        </div>
-        <div class="header-menu">
-            <i class="fas fa-video"></i>
-            <i class="fas fa-th"></i>
-            <i class="far fa-bell"></i>
-        </div>
-    </nav>
+    <section>
+        <header class="header">
+            <ul class="header-links">
+                <li class="logo-area">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                    <a href="#"><img src="./images/youtube.png" alt="YouTube logo"></a>
+                </li>
+                <li class="search-area">
+                        <label for="search">
+                            <input type="search" name="search" id="search" placeholder="Search"/>
+                            <button><i class="fas fa-search"></i</button>
+                        </label>
+                </li>
+                <li class="header-menu">
+                    <ul class="header-menu-list">
+                        <li><a href="#"><i class="fas fa-video"></i></a></li>
+                        <li><a href="#"><i class="fas fa-th"></i></a></li>
+                        <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <main class="main">
+            <section class="featured-area">
+                <section class="featured-video">
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/XFTOG895C7c" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                    <h1>The Better Parts. Douglas Crockford. JS Fest 2018</h1>
+                    <p>3,974 views•Aug 12, 2019</p>
+                    <div>
+                        <i class="fas fa-thumbs-up"></i>
+                        <i class="fas fa-thumbs-down"></i>
+                        <i class="fas fa-share"></i>
+                        <i class="save">SAVE</i>
+                        <i class="fas fa-ellipsis-h"></i>
+                        <button>SUBSCRIBE</button>
+                        <img src="./images/icon.jpg" class="avatar" style="width: 50px;height: 50px;" />
+                    </div>
+        
+                </section>
+                <aside class="aside">
+                    <div class="toggle-container">
+                        <p>Up Next</p>
+                        <i class="fas fa-toggle-off"></i>
+                    </div>
+                    <ul class="recommended-list">
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 05-51-49.png" alt="Microverse screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Working Remotely: Uganda - Silicon Valley Edition</h2>
+                                <p>Microverse</p>
+                                <p>28 views•Jul 9, 2020</p>
+                            </div>
+                            
+                        </li>
+                        <li class="recommended-video">
+                            <img src="images/Screenshot from 2020-07-10 06-13-23.png" alt="JSCamp screenshot" style="width:172px;height:98px">
+                            <div class="suggested-description">
+                                <h2>Best Laptops for Programmers 2020</h2>
+                                <p>Laptops Central</p>
+                                <p>33K views•Jul 9, 2020</p>
+                            </div>
+                        </li>
 
-    
-    
+                    </ul>
+                </aside>
+            </section>
+            
+        </main>
+    </section>    
 </body>
 </html>
